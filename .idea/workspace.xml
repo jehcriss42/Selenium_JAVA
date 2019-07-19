@@ -17,12 +17,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SignTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
+    <option name="x" value="38" />
     <option name="y" value="27" />
     <option name="width" value="664" />
     <option name="height" value="741" />
@@ -129,7 +129,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SignTest">
+    <configuration name="SignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SignTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_test" />
       <extension name="coverage">
@@ -148,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SignTest" />
         <item itemvalue="JUnit.SignTest.testLogin" />
       </list>
     </recent_temporary>
@@ -163,17 +179,46 @@
       <option name="presentableId" value="Default" />
       <updated>1562808963388</updated>
     </task>
+    <task id="LOCAL-00001" summary="Open site with selenium webdriver">
+      <created>1563160533665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563160533665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignTest_testLogin - 2019.07.15 at 00h 06m 17s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.15 at 00h 07m 32s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SignTest_testLogin - 2019.07.15 at 00h 09m 31s.xml">
       <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.15 at 00h 13m 26s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest - 2019.07.18 at 22h 53m 30s.xml">
+      <configuration name="SignTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 03m 07s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 04m 15s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 13m 44s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 19m 17s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 21m 45s.xml">
+      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest - 2019.07.18 at 23h 23m 47s.xml">
+      <configuration name="SignTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest - 2019.07.18 at 23h 25m 19s.xml">
+      <configuration name="SignTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -209,6 +254,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Open site with selenium webdriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open site with selenium webdriver" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -219,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
