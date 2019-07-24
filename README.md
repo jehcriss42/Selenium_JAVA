@@ -1,9 +1,11 @@
-# selenium_tests
+# Selenium WebDriver Test - Java
+
+Tests created for study purpose using the available test site: http://automationpractice.com/
 
  *1) Prerequisite:*
-
-    Java
+   
     Maven
+    Java
     Selenium/WebDriver
     Junit
     Browsers (Firefox, Chrome)
