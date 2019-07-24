@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22528947-44c0-4423-97ab-56feb1523501" name="Default Changelist" comment="">
+    <list default="true" id="22528947-44c0-4423-97ab-56feb1523501" name="Default Changelist" comment="Added tests to Sign In class.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SignTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SingIn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +20,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SignTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SingIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="-120">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +51,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Drivers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SiteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SingIn.java" />
       </list>
     </option>
   </component>
@@ -70,8 +75,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -94,8 +135,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SignTest">
-    <configuration name="SignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SingIn.testLogin">
+    <configuration name="SingIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +145,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SignTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingIn.testCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_test" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +160,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SignTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
+      <option name="METHOD_NAME" value="testCategories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingIn.testInvalidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
+      <option name="METHOD_NAME" value="testInvalidLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingIn.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
       <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -128,8 +201,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SignTest" />
-        <item itemvalue="JUnit.SignTest.testLogin" />
+        <item itemvalue="JUnit.SingIn.testLogin" />
+        <item itemvalue="JUnit.SingIn" />
+        <item itemvalue="JUnit.SingIn.testInvalidLogin" />
+        <item itemvalue="JUnit.SingIn.testCategories" />
       </list>
     </recent_temporary>
   </component>
@@ -162,42 +237,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignTest_testLogin - 2019.07.18 at 23h 21m 45s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn - 2019.07.24 at 00h 08m 11s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2019.07.18 at 23h 23m 47s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 19m 32s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2019.07.18 at 23h 25m 19s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 30m 33s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2019.07.21 at 21h 58m 03s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 32m 02s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.21 at 22h 15m 29s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 32m 55s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.21 at 22h 16m 46s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 37m 19s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.21 at 22h 17m 09s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 39m 20s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.21 at 22h 45m 33s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn - 2019.07.24 at 00h 40m 16s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testLogin - 2019.07.21 at 22h 46m 53s.xml">
-      <configuration name="SignTest.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn_testLogin - 2019.07.24 at 00h 41m 48s.xml">
+      <configuration name="SingIn.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2019.07.21 at 22h 58m 17s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="SingIn_testLogin - 2019.07.24 at 00h 46m 26s.xml">
+      <configuration name="SingIn.testLogin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="27" width="1328" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5093604" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20826833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +281,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,7 +290,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289256" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24960998" />
@@ -229,7 +304,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Open site with selenium webdriver" />
     <MESSAGE value="Added code to Submit login." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to Submit login." />
+    <MESSAGE value="Added tests to Sign In class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests to Sign In class." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -239,12 +315,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SignTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Drivers.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SingIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="-120">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
           </folding>
         </state>
       </provider>
