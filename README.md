@@ -9,7 +9,7 @@
     Browsers (Firefox, Chrome)
     Respective Browser drivers
  
- *2) Project Scope
+ *2) Project Scope*
  
     Functional and nonfuncional tests as:
     
