@@ -22,5 +22,5 @@
     
  
  
- [Selenium first Step video](https://dms.licdn.com/playback/C4E05AQE0WgF6y7WzGQ/5c2e6eb67929424b8245ecb19bc959e8/feedshare-mp4_3300-captions-thumbnails/1507940147251-drlcss?e=1564023600&v=beta&t=bzbp7FE9SGS_ReqqvkJbNwd87FX6q_jsA9RXiUrhlnM)
+ [Selenium Webdriver - First Step video](https://dms.licdn.com/playback/C4E05AQE0WgF6y7WzGQ/5c2e6eb67929424b8245ecb19bc959e8/feedshare-mp4_3300-captions-thumbnails/1507940147251-drlcss?e=1564023600&v=beta&t=bzbp7FE9SGS_ReqqvkJbNwd87FX6q_jsA9RXiUrhlnM)
 
