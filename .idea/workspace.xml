@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22528947-44c0-4423-97ab-56feb1523501" name="Default Changelist" comment="Added tests to Sign In class.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="22528947-44c0-4423-97ab-56feb1523501" name="Default Changelist" comment="Added Setup class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SingIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SingIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SingIn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +19,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SingIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Setup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SiteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SingIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Setup.java" />
       </list>
     </option>
   </component>
@@ -75,6 +88,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,8 +127,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingIn.testLogin">
+  <component name="RunManager" selected="JUnit.SingIn">
     <configuration name="SingIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_test" />
       <extension name="coverage">
@@ -147,6 +160,22 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingIn.Logout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SingIn" />
+      <option name="METHOD_NAME" value="Logout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,9 +230,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SingIn.testLogin" />
         <item itemvalue="JUnit.SingIn" />
         <item itemvalue="JUnit.SingIn.testInvalidLogin" />
+        <item itemvalue="JUnit.SingIn.testLogin" />
+        <item itemvalue="JUnit.SingIn.Logout" />
         <item itemvalue="JUnit.SingIn.testCategories" />
       </list>
     </recent_temporary>
@@ -233,40 +263,56 @@
       <option name="project" value="LOCAL" />
       <updated>1563504232303</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added tests to Sign In class.">
+      <created>1563940156493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563940156493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingIn - 2019.07.24 at 00h 08m 11s.xml">
-      <configuration name="SingIn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 19m 32s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 30m 33s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 32m 02s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 32m 55s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 37m 19s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 00h 39m 20s.xml">
-      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn - 2019.07.24 at 00h 40m 16s.xml">
-      <configuration name="SingIn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingIn_testLogin - 2019.07.24 at 00h 41m 48s.xml">
+    <history-entry file="SingIn_testLogin - 2019.07.24 at 22h 43m 54s.xml">
       <configuration name="SingIn.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingIn_testLogin - 2019.07.24 at 00h 46m 26s.xml">
-      <configuration name="SingIn.testLogin" configurationId="JUnit" />
+    <history-entry file="SingIn - 2019.07.24 at 22h 44m 12s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 45m 47s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 48m 49s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn_testInvalidLogin - 2019.07.24 at 22h 50m 27s.xml">
+      <configuration name="SingIn.testInvalidLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 50m 59s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 52m 16s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 54m 21s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 55m 58s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingIn - 2019.07.24 at 22h 59m 53s.xml">
+      <configuration name="SingIn" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="27" width="1328" height="741" extended-state="6" />
@@ -285,14 +331,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32784185" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24960998" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24960998" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
@@ -305,7 +351,12 @@
     <MESSAGE value="Open site with selenium webdriver" />
     <MESSAGE value="Added code to Submit login." />
     <MESSAGE value="Added tests to Sign In class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests to Sign In class." />
+    <MESSAGE value="Added Setup class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Setup class" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -316,14 +367,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Drivers.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="918" column="25" selection-start-line="918" selection-start-column="25" selection-end-line="918" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SingIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Setup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
           </folding>
         </state>
       </provider>
