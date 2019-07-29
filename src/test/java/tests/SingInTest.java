@@ -9,11 +9,10 @@ import static junit.framework.TestCase.*;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class SingIn extends Setup {
+public class SingInTest extends Setup {
 
     @Test
     public void testLogin() {
-        super.BrowserOpen();
         browser.get("http://automationpractice.com/");
         browser.findElement(By.className("login")).click();
         browser.findElement(By.id("email")).sendKeys("aaa@jjj.com");
@@ -32,6 +31,5 @@ public class SingIn extends Setup {
         browser.findElement(By.id("SubmitLogin")).click();
         String checklogin = browser.findElement(By.cssSelector("div[class='alert alert-danger']")).getText();
         assertTrue(checklogin.contains("Invalid email address"));
-        super.teardown();
     }
 }

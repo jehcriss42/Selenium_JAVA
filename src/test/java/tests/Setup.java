@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Setup {
 
-    static WebDriver browser;
+    public static WebDriver browser;
 
     @BeforeClass
     public static void BrowserOpen() {
