@@ -9,5 +9,8 @@
         <module name="selenium_test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="selenium_test" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

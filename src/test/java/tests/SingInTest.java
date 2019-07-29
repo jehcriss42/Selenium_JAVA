@@ -13,6 +13,7 @@ public class SingIn extends Setup {
 
     @Test
     public void testLogin() {
+        super.BrowserOpen();
         browser.get("http://automationpractice.com/");
         browser.findElement(By.className("login")).click();
         browser.findElement(By.id("email")).sendKeys("aaa@jjj.com");
@@ -20,18 +21,17 @@ public class SingIn extends Setup {
         browser.findElement(By.id("SubmitLogin")).click();
         String checklogin = browser.findElement(By.className("account")).getText();
         assertEquals("Jessica Tavares", checklogin);
-        // Teardown - logout
         browser.findElement(By.className("logout")).click();
     }
 
     @Test
     public void testInvalidLogin() {
-        browser.get("http://automationpractice.com/");
         browser.findElement(By.className("login")).click();
         browser.findElement(By.id("email")).sendKeys("invalid");
         browser.findElement(By.id("passwd")).sendKeys("12345");
         browser.findElement(By.id("SubmitLogin")).click();
         String checklogin = browser.findElement(By.cssSelector("div[class='alert alert-danger']")).getText();
         assertTrue(checklogin.contains("Invalid email address"));
+        super.teardown();
     }
 }
