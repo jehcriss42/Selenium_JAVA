@@ -20,6 +20,11 @@ public class SingInTest extends Setup {
         browser.findElement(By.id("SubmitLogin")).click();
         String checklogin = browser.findElement(By.className("account")).getText();
         assertEquals("Jessica Tavares", checklogin);
+
+    }
+
+    @Test
+    public void testLogout(){
         browser.findElement(By.className("logout")).click();
     }
 
