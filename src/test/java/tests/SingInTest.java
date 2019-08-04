@@ -3,6 +3,8 @@ package tests;
    Created by: Jessica Cristina Tavares
    Email: jeh_criss@hotmail.com
    2019
+
+   Testing extends setup from the same package (Does not call Page Object Model from pages package)
 */
 
 import static junit.framework.TestCase.*;
