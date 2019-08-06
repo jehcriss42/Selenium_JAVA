@@ -15,7 +15,7 @@ import pages.Login;
 
 public class TestSingIn {
     static WebDriver browser;
-    Login login;
+    Login login = new Login(browser);
 
     @BeforeClass
     public static void setup(){
@@ -26,19 +26,26 @@ public class TestSingIn {
 
     /**
 
-     * This test case will login in http://automationpractice.com
+     * The test cases will reach http://automationpractice.com
 
-     * Login to application
+     * Login
+     * Logout
      * and close the browser
 
      */
 
     @Test
     public void testLogin() {
-        login = new Login(browser);
         login.loginToSite("aaa@jjj.com","12345");
-        String checkLogin = login.loginTitle();
+        String checkLogin = login.loginTitleAccount();
         assertEquals("Jessica Tavares",checkLogin);
+    }
+
+    @Test
+    public void testLogout(){
+        login.setBtnLogout();
+        String checkLogout = login.loginTitleLogIn();
+        assertEquals("Sign in",checkLogout);
     }
 
     @AfterClass

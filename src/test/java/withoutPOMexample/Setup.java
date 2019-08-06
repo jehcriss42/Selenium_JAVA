@@ -1,10 +1,4 @@
-package tests;
-
-/*
-   Created by: Jessica Cristina Tavares
-   Email: jeh_criss@hotmail.com
-   2019
-*/
+package withoutPOMexample;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

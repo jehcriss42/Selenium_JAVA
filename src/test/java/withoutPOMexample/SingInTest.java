@@ -1,4 +1,4 @@
-package tests;
+package withoutPOMexample;
 /*
    Created by: Jessica Cristina Tavares
    Email: jeh_criss@hotmail.com
@@ -27,6 +27,7 @@ public class SingInTest extends Setup {
 
     @Test
     public void testLogout(){
+
         browser.findElement(By.className("logout")).click();
     }
 

@@ -16,6 +16,7 @@ public class Login {
     By sectionPassword = By.id("passwd");
     By nameLogin = By.className("account");
     By btnLogin = By.id("SubmitLogin");
+    By btnLogout = By.className("logout");
 
     public Login(WebDriver browser){
         this.browser = browser;
@@ -41,9 +42,17 @@ public class Login {
         browser.findElement(btnLogin).click();
     }
 
-    public String loginTitle(){
+    public void setBtnLogout(){
+        browser.findElement(btnLogout).click();
+    }
+
+    public String loginTitleAccount(){
 
         return browser.findElement(nameLogin).getText();
+    }
+
+    public String loginTitleLogIn(){
+        return browser.findElement(sectionLogin).getText();
     }
 
     /**
@@ -54,18 +63,14 @@ public class Login {
 
      * @param password
 
-     * @return
-
      */
 
 
     public void loginToSite(String email,String password){
-
         this.accessLogin();
         this.setEmail(email);
         this.setSectionPassword(password);
         this.setBtnLogin();
-
     }
 
 }
