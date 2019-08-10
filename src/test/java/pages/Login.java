@@ -19,7 +19,9 @@ public class Login {
     By btnLogout = By.className("logout");
 
     public Login(WebDriver browser){
+
         this.browser = browser;
+
     }
 
     public void accessLogin(){
@@ -43,6 +45,7 @@ public class Login {
     }
 
     public void setBtnLogout(){
+
         browser.findElement(btnLogout).click();
     }
 
@@ -52,6 +55,7 @@ public class Login {
     }
 
     public String loginTitleLogIn(){
+
         return browser.findElement(sectionLogin).getText();
     }
 
@@ -67,7 +71,7 @@ public class Login {
 
 
     public void loginToSite(String email,String password){
-        this.accessLogin();
+//        this.accessLogin();
         this.setEmail(email);
         this.setSectionPassword(password);
         this.setBtnLogin();
