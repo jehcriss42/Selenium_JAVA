@@ -71,7 +71,6 @@ public class Login {
 
 
     public void loginToSite(String email,String password){
-//        this.accessLogin();
         this.setEmail(email);
         this.setSectionPassword(password);
         this.setBtnLogin();

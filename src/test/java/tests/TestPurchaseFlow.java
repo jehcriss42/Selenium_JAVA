@@ -25,19 +25,32 @@ public class TestPurchaseFlow extends Setup {
     Login login = new Login(browser);
 
     @Test
-    public void testPurchase(){
+    public void testPurchase() {
         browser.get("http://automationpractice.com");
+
+        // Added item to the cart
         purchase.addToCart();
-        Boolean titleConfirmation = purchase.titleConfirmingCart();
-        System.out.println(titleConfirmation);
-        assertTrue(titleConfirmation==Boolean.TRUE);
+        String titleConfirmation = purchase.titleConfirmingCart().getText();
+        assertTrue(titleConfirmation.contains("Product successfully added to your shopping cart"));
+
+        //Proceed with the checkout
         purchase.setBtnProceedCheckout().click();
         purchase.setBtnProceedCheckoutStd().click();
+
+        //Authentication required
         login.loginToSite("aaa@jjj.com","12345");
+
+        // Confirm address
         purchase.setBtnProcessAddress();
+
+        // confirm shipping
         purchase.setCheckbox();
         purchase.setBtnPProcessCarrier();
+
+        // Confirm pay method
         purchase.setPayMethod();
+
+        // Confirming order
         purchase.setConfirmOrder();
         String confirmation = purchase.setOrderConfirmation();
         assertTrue(confirmation.contains("Your order on My Store is complete."));

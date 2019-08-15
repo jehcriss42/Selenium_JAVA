@@ -15,7 +15,8 @@ public class PurchaseFlow {
     WebDriver browser;
 
     By item = By.xpath("//*[@data-id-product = '1']");
-    String confirmingCart = "Product successfully added to your shopping cart";
+    By confirmingCart = By.xpath("//h2[contains(., 'Product')]");
+//    String confirmingCart = "Product successfully added to your shopping cart";
     By btnProceedCheckout = By.cssSelector("a.btn-default[title='Proceed to checkout']");
     By btnProceedCheckoutstd = By.cssSelector("a.standard-checkout[title='Proceed to checkout']");
     By btnProcessAddress = By.name("processAddress");
@@ -31,13 +32,13 @@ public class PurchaseFlow {
     }
 
     public void addToCart(){
-
         browser.findElement(item).click();
     }
 
-    public Boolean titleConfirmingCart(){
-
-        return browser.getPageSource().contains(confirmingCart);
+    public WebElement titleConfirmingCart(){
+        WebDriverWait wait = new WebDriverWait(browser,10);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(confirmingCart));
+        return element;
     }
 
     public WebElement setBtnProceedCheckout(){
@@ -53,22 +54,27 @@ public class PurchaseFlow {
     }
 
     public void setBtnProcessAddress(){
+
         browser.findElement(btnProcessAddress).click();
     }
 
     public void setBtnPProcessCarrier(){
+
         browser.findElement(btnProcessCarrier).click();
     }
 
     public void setCheckbox(){
+
         browser.findElement(checkbox).click();
     }
 
     public void setPayMethod(){
+
         browser.findElement(payMethod).click();
     }
 
     public void setConfirmOrder(){
+
         browser.findElement(confirmOrder).click();
     }
 
@@ -76,5 +82,9 @@ public class PurchaseFlow {
        return browser.findElement(orderConfirmation).getText();
 
     }
+
+     /** This POM method will be exposed in test case to login in the application */
+
+
 
 }
