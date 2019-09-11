@@ -12,7 +12,7 @@ public class Setup {
 
     @BeforeClass
     public static void BrowserOpen() {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
      
         options.setHeadless(true);
