@@ -10,6 +10,7 @@ Tests created for study purpose using the available test site: http://automation
     Junit
     Browsers (Firefox, Chrome)
     Respective Browser drivers
+    Docker
  
  *2) Project Scope*
  
@@ -22,6 +23,18 @@ Tests created for study purpose using the available test site: http://automation
       Direct access to internal url pages without login
       Valid inputs in input fields (login username, password, input text boxes, etc)
     
-*3) Run test:
-    mvn surefire:test -Dtest=*.java 
+*3) Run test:*
+
+   git clone https://github.com/jehcriss42/Selenium_JAVA.git
+
+   Using Docker:
+
+   docker build -t automation .
+
+   or
+
+   After clone the project run:
+   mvn test 
+
+    
  

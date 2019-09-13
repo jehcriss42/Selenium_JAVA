@@ -21,25 +21,6 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.stor
     && chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION \
     && ln -fs /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
 
-RUN apk update && apk upgrade \
-     && echo @latest-stable http://nl.alpinelinux.org/alpine/latest-stable/community >> /etc/apk/repositories \
-     && echo @latest-stable http://nl.alpinelinux.org/alpine/latest-stable/main >> /etc/apk/repositories \
-     && apk add --no-cache \
-     chromium@latest-stable \
-     harfbuzz@latest-stable \     <--- New!
-     nss@latest-stable \
-     && rm -rf /var/lib/apt/lists/* \
-     /var/cache/apk/* \
-     /usr/share/man \
-     /tmp/*
-
-
-# Xvfb
-
-RUN apt-get update -qqy \
-    && apt-get -qqy install xvfb \
-&& rm -rf /var/lib/apt/lists/* /var/cache/apt/*
-
-COPY entrypoint.sh /
-
-ENTRYPOINT [ "/entrypoint.sh" ]
+RUN git clone https://github.com/jehcriss42/Selenium_JAVA.git \
+     && cd Selenium_JAVA \
+     && mvn test
